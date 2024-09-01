@@ -73,6 +73,10 @@ If you can't get this to work, see the [Troubleshooting](https://reactnative.dev
 To learn more about React Native, take a look at the following resources:
 
 - [React Native Website](https://reactnative.dev) - learn more about React Native.
+
+
+###INTRODUCTION
+The application still in the development process to integrate with the MongoDB as the backend. The API will be containerize in docker.
 - [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
