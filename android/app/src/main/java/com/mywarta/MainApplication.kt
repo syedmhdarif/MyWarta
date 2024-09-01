@@ -1,5 +1,6 @@
 package com.mywarta
 
+import android.os.Bundle;
 import android.app.Application
 import com.facebook.react.PackageList
 import com.facebook.react.ReactApplication
@@ -33,8 +34,8 @@ class MainApplication : Application(), ReactApplication {
   override val reactHost: ReactHost
     get() = getDefaultReactHost(this.applicationContext, reactNativeHost)
 
-  override fun onCreate() {
-    super.onCreate()
+  override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(null)
     SoLoader.init(this, false)
     if (BuildConfig.IS_NEW_ARCHITECTURE_ENABLED) {
       // If you opted-in for the New Architecture, we load the native entry point for this app.
